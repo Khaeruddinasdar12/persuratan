@@ -1,0 +1,143 @@
+body {
+  background-image: url("../img/bg.jpg");
+  background-size: cover;
+  background-attachment: fixed;
+}
+
+body::after {
+  display: block;
+  content: '';
+  position: absolute;
+  top: 0;
+  background: rgba(24, 165, 231, 0.603);
+  width: 100%;
+  height: 100%;
+}
+
+nav {
+  margin-top: 15px;
+  background-color: rgba(255, 255, 255, 0.774) !important;
+  border: none !important;
+  position: relative;
+  z-index: 999999 !important;
+  border-radius: 7px;
+  margin-bottom: 10px;
+  height: 50px;
+}
+
+nav .brand {
+  width: 40px;
+  margin-top: -40px !important;
+}
+
+nav .logo {
+  width: 250px;
+  margin-top: -25px !important;
+}
+
+nav p {
+  color: rgb(53, 53, 53) !important;
+  font-weight: 500 !important;
+  font-size: 20px;
+}
+
+iframe {
+  position: relative;
+  z-index: 9999;
+  border: none;
+  border-radius: 7px;
+}
+
+.data-perpustakaan {
+  position: relative;
+  z-index: 9999;
+  color: white;
+  margin-top: 5px;
+}
+
+.owl-carousel h6,
+.owl-carousel small{
+  color: white;
+}
+
+.owl-carousel h6,
+.owl-carousel small,
+.agenda,
+.data-perpustakaan,
+.pin p {
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 0.829);
+}
+
+.agenda {
+  position: relative;
+  z-index: 9999;
+  color: white;
+}
+
+.pin p {
+  position: relative;
+  z-index: 9999;
+  color: white;
+}
+
+.perpustakaan .owl-carousel img {
+  height: 200px !important;
+  position: relative;
+}
+
+.perpustakaan {
+  position: relative;
+  z-index: 9999 !important;
+  color: white;
+}
+
+footer {
+  background-color: rgba(255, 255, 255, 0.774) !important;
+  position: relative;
+  z-index: 9999;
+  margin-top: 10px !important;
+  padding: 10px;
+  border-radius: 7px;
+}
+
+footer .jam-digital {
+  position: relative;
+  margin-left: 400px;
+}
+
+footer .jam-digital #jam,
+footer .jam-digital #menit,
+footer .jam-digital #detik {
+  margin-bottom: 0 !important;
+  text-align: center;
+}
+
+footer .jam-digital span {
+  text-align: center;
+}
+
+footer .kotak {
+  float: left;
+  width: 40px;
+}
+
+.owl-dots{
+  position: absolute !important;
+  display: none !important;
+}
+
+.owl-nav{
+  position: absolute !important;
+  display: none !important;
+}
+
+.owl-carousel .galery{
+  width: 450px !important;
+  height: 300px;
+}
+
+.owl-carousel .galery img{
+  max-height: 100% !important;
+  max-width: 100% !important;
+  border-radius: 7px !important;
+}

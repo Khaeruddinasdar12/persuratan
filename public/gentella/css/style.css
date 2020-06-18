@@ -1,0 +1,96 @@
+/* index */
+/* .left_col .scroll-view {
+    background-color: #2776FB !important;
+} */
+.logos {
+    margin-top: 50px;
+    width: 120px;
+}
+
+.text-header {
+    margin-top: 20px;
+    color: #4f4f4f;
+}
+
+.image-header {
+    margin-top: -15px !important;
+    width: 250px;
+}
+
+.padd {
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+
+.mail {
+    margin-top: 50px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 50px;
+    padding-bottom: 40px !important;
+}
+
+.mail:hover {
+    bottom: 10px;
+    box-shadow: 0 15px 30px #30303050;
+    -webkit-box-shadow: 0 15px 30px #30303050;
+    -moz-box-shadow: 0 15px 30px #30303050;
+    border-left: 5px solid #1ABB9C !important;
+}
+
+a:hover {
+    color: black !important;
+}
+
+.padd:hover {
+    bottom: 10px;
+    box-shadow: 0 15px 30px #30303050;
+    -webkit-box-shadow: 0 15px 30px #30303050;
+    -moz-box-shadow: 0 15px 30px #30303050;
+    border-left: 5px solid #1ABB9C !important;
+}
+
+.ico {
+    margin-bottom: 20px !important;
+}
+
+.desc {
+    margin-bottom: 10px !important;
+}
+
+/* akhir index */
+
+/* tambah data */
+
+.tombol {
+    margin-bottom: 20px;
+}
+
+.buttons-copy,
+.buttons-csv {
+    display: none;
+}
+
+.buttons-print {
+    padding-left: 30px;
+    padding-right: 30px;
+    margin-left: 47px !important;
+}
+
+/* akhir tambah data */
+
+.left_col .scroll-view {
+    box-shadow: 2px 0px 10px #303030a1;
+    -webkit-box-shadow: 2px 0px 10px #303030a1;
+    -moz-box-shadow: 2px 0px 10px #303030a1;
+}
+
+#menu_toggle {
+    /*display: none !important;*/
+}
+
+.panel-bg{
+    background-color: #2A3F54 !important;
+    color: white !important;
+}
