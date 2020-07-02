@@ -25,12 +25,13 @@
     DB_USERNAME=user_database_anda
     DB_PASSWORD=password_database_anda 
     ```
-6. Buka cmd kembali lalu ketikkan ```php artisan key:generate```
-7. Masih di cmd ketikkan perintah ```php artisan storage:link```
-8. Masih di cmd ketikkan perintah ```php artisan serve```
-9. buka browser lalu akses ```localhost:8000```
-10. Anda akan secara otomatis memiliki akun yang bisa digunakan untuk login yaitu
+6. Buka kembali cmd lalu ketikkan ```php artisan migrate:refresh --seed```
+7. Masih di cmd kembali lalu ketikkan ```php artisan key:generate```
+8. Masih di cmd ketikkan perintah ```php artisan storage:link```
+9. Masih di cmd ketikkan perintah ```php artisan serve```
+10. buka browser lalu akses ```localhost:8000```
+11. Anda akan secara otomatis memiliki akun yang bisa digunakan untuk login yaitu
     > email : khaeruddinasdar12@gmail.com <br>
     > pass : 12345678
 
-11. Selamat Menikmati. Sekian Dan Terimakasih.
+12. Selamat Menikmati. Sekian Dan Terimakasih.
